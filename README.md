@@ -1,2 +1,2 @@
-# wwlinux-starter
-A World of Warcraft client server starter with not download
+# Zemsi
+Is a World of Warcraft client starter for linux - with not download on private servers
