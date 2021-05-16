@@ -14,13 +14,9 @@ class startWOW:
 		self.startProcess(home)
 
 	def findIt(self):
-		for file in listdir("./"):
-			dirnames = path.join("./", file)
-			if path.isdir(dirnames):
-				d = dirnames.replace("./", "").split()
-				for name in d:
-					if path.exists(name+"/Data"):
-						return name
+		for file in listdir(home + "/wow/"):
+			if path.exists(home + "/wow/" + file + "/Data/"):
+				return file
 #
 	def changeDir(self, dados):
 		try:
